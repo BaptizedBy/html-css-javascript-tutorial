@@ -1,0 +1,21 @@
+.model-3-text {
+  text-align : center;
+  margin-top:0px;
+  margin-bottom:8px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  font-style:normal;
+  font-style: normal;
+  font-size : 24px;
+}
+
+.model-3-stats {
+  text-align: center;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size :10px
+}
+
+.deep-style {
+  text-decoration: underline;
+}
