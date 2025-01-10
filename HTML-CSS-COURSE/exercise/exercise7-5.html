@@ -1,0 +1,27 @@
+<!-- 7e. with a shadow, and no border -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice Textbox Exercise</title>
+
+    <style>
+      .google-search {
+        font-family:Arial;
+        font-size : 12px;
+        width: 380px;
+        height:24px;
+        border-radius: 16px;
+        border:none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2)
+      }
+
+      .google-search::placeholder {
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input class ="google-search" type ="text" placeholder="Search Google or type a URL">
+  </body>
+</html> 

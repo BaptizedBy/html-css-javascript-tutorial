@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Twitter Text Box</title>
+    <style>
+      .tweet-button {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border: none; 
+        height: 24px;
+        width : 54px;
+        border-radius : 18px;
+        font-weight: bold;
+        font-size: 11px;
+        cursor: pointer;
+        vertical-align: middle;
+      }
+
+      .pfp-img {
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        object-position: center;
+        border-radius :100px;
+        vertical-align: middle;
+      }
+
+      .status-textbox {
+        border:none;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="pfp-img" src="shepherd.webp">
+
+    <input class = "status-textbox" type="text" placeholder="What's happening?">
+
+    <button class="tweet-button">
+      Tweet
+    </button>
+  </body>
+</html>
