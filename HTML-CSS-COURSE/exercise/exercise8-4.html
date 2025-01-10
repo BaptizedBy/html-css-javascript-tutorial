@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Sign Up</title>
+    <style>
+      .firstname-box,
+      .lastname-box {
+        width:91px;
+        height: 24px;
+        border-color: gray;
+        border-width: 0.7px;
+        border-style:solid;
+        border-radius: 7px;
+      }
+
+      .email-box {
+        display:block;
+        margin-top: 6px;
+        width : 194px;
+        margin-bottom: 6px;
+        height: 24px;
+        border-color: gray;
+        border-width: 0.7px;
+        border-style:solid;
+        border-radius: 7px;
+      }
+
+      .firstname-box::placeholder,
+      .lastname-box::placeholder,
+      .email-box::placeholder {
+        padding-left: 4px;
+        font-size:12px;
+      }
+
+      .signup-button {
+        font-family:arial;
+        font-weight:bold;
+        background-color: rgb(39, 113, 233);
+        color:white;
+        border:none;
+        padding: 8px 75px;
+        border-radius: 7px;
+        cursor:pointer;
+      }
+      .signup-button:hover {
+        background-color: rgb(26, 48, 211);
+      }
+      .signup-button:active {
+        opacity: 0.8;
+        background-color:rgb(39, 113, 233);
+      }
+    </style>
+  </head>
+  <body>
+    <input class="firstname-box" type="text" placeholder="First name">
+    <input class="lastname-box" type="text" placeholder="Last name">
+    <input class="email-box" type="text" placeholder="Email">
+    <button class = "signup-button">
+      Sign Up
+    </button>
+  </body>
+</html>
